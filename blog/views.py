@@ -18,5 +18,5 @@ class ArticleDetailView(DetailView):
 
 class AddPostView(CreateView):
     model = Post
-    template_name = 'create_post.html'
+    template_name = 'add_post.html'
     fields = '__all__'
